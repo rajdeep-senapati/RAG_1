@@ -36,6 +36,7 @@ This project demonstrates a **Retrieval-Augmented Generation (RAG)** pipeline us
 **query = "What is retrieval-augmented generation?"**
 **response = qa_chain.invoke({"query": query})**
 
+---
 
 **Extract only the final answer (removes chain of thought)**
 
@@ -47,14 +48,15 @@ print(answer)
 for doc in response["source_documents"]:
 print(f"{doc.metadata['source']} (page {doc.metadata.get('page', '?')})")
 
+---
 
 **Output:**
 
 Retrieval-augmented generation refers to a method used by large language models where they first retrieve relevant information from external sources using a retrieval system, and then generate responses based on this combined data. This approach can help improve the accuracy and relevance of the generated responses compared to solely relying on the model's internal knowledge.
 
-# https://arxiv.org/pdf/2303.08774.pdf (page 55)
-# https://arxiv.org/pdf/2303.08774.pdf (page 75)
-# https://arxiv.org/pdf/2303.08774.pdf (page 71)
+* https://arxiv.org/pdf/2303.08774.pdf (page 55)
+* https://arxiv.org/pdf/2303.08774.pdf (page 75)
+* https://arxiv.org/pdf/2303.08774.pdf (page 71)
 
 ---
 
