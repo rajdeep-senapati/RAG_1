@@ -1,4 +1,4 @@
-# Retrieval-Augmented Generation (RAG) with Open-Source LLMs on Google Colab
+# Retrieval-Augmented Generation (RAG) with Open-Source LLMs 
 
 ## Overview
 
